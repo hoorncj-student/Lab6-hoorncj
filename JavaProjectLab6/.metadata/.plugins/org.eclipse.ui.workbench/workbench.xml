@@ -18,7 +18,7 @@
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.jdt.ui.PropertiesFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -37,10 +37,6 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrintBalance.java" partName="PrintBalance.java" path="C:/Users/hoorncj/Lab6-hoorncj/New folder/Lab 6/src/PrintBalance.java" title="PrintBalance.java" tooltip="Lab 6/src/PrintBalance.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab 6/src/PrintBalance.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="465" selectionTopPixel="0"/>
-</editor>
 <editor id="org.eclipse.ui.DefaultTextEditor" name="MessagesBundle_fr_FR.properties" partName="MessagesBundle_fr_FR.properties" path="C:/Users/hoorncj/Lab6-hoorncj/New folder/Lab 6/src/MessagesBundle_fr_FR.properties" title="MessagesBundle_fr_FR.properties" tooltip="Lab 6/src/MessagesBundle_fr_FR.properties" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab 6/src/MessagesBundle_fr_FR.properties"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="136" selectionTopPixel="0"/>
@@ -57,9 +53,6 @@
 <views>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings (1 item)"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -224,13 +217,8 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" path="/Lab 6/src/MessagesBundle_en_US.properties"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Lab 6/src/MessagesBundle_fr_FR.properties"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" path="/Lab 6/src/MessagesBundle_de_DE.properties"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" uri="file:/C:/Users/hoorncj/Lab6-hoorncj/JavaProjectLab6/Lab6/.project"/>
 </editors>
-<item historyLabel="PrintBalance.java" index="0">
-<position info="not_deleted" x="1612" y="0"/>
-</item>
-<item historyLabel="PrintBalance.java" index="0">
-<position info="not_deleted" x="1304" y="6"/>
-</item>
 <item historyLabel="PrintBalance.java" index="0">
 <position info="not_deleted" x="1411" y="0"/>
 </item>
@@ -372,8 +360,14 @@
 <item historyLabel="MessagesBundle_fr_FR.properties" index="2">
 <position info="not_deleted" x="136" y="0"/>
 </item>
-<item active="true" historyLabel="PrintBalance.java" index="0">
+<item historyLabel="PrintBalance.java" index="0">
 <position info="not_deleted" x="1242" y="0"/>
+</item>
+<item historyLabel=".project" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="PrintBalance.java" index="0">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -388,16 +382,15 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.intro.impl.presentations.IntroLaunchBar"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name=".project" tooltip="C:\Users\hoorncj\Lab6-hoorncj\JavaProjectLab6\Lab6\.project">
+<persistable uri="file:/C:/Users/hoorncj/Lab6-hoorncj/JavaProjectLab6/Lab6/.project"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" name="MessagesBundle_en_US.properties" tooltip="Lab 6/src/MessagesBundle_en_US.properties">
 <persistable path="/Lab 6/src/MessagesBundle_en_US.properties"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrintBalance.java" tooltip="Lab 6/src/PrintBalance.java">
-<persistable path="/Lab 6/src/PrintBalance.java"/>
 </file>
 </mruList>
 </workbench>
