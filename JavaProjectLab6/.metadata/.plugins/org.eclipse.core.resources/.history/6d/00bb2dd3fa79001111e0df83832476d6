@@ -1,0 +1,5 @@
+greeting = Hello World
+nameInquiry = Please enter your name
+nameAcknowledged = I am pleased to meet you 
+farewell = Good bye
+local = (Locale) Locale.ENGLISH
